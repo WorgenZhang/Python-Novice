@@ -7,9 +7,18 @@ my_float=1.23
 my_bool=True
 
 # Def
-# Must have witespace 
+# Must have whitespace 
 def spam():
     eggs = 12
     return eggs  
  
 print spam()
+
+# Multi-line Commet
+"""Comment Area
+that's convenient!
+"""
+
+#Set eggs equal to 100 using exponentiation on line 3!
+eggs = 10 ** 2
+print eggs
