@@ -34,3 +34,28 @@ print parrot.upper()
 # String Method 4: Str(__)-->Turn non-strings into strings
 pi = 3.14
 print str(pi)
+
+"""
+Methods that use dot notation only work with strings-->.lower() & .upper()
+On the other hand, len() and str() can work on other data types.
+"""
+
+# Print the concatenation of "Spam and eggs" on line 3!
+print "Spam " + "and " + "eggs"
+"""
+The + operator between strings will 'add' them together, one after the other. 
+Notice that there are spaces inside the quotation marks after Spam and and
+so that we can make the combined string look like 3 words.
+"""
+
+# Explicit String Conversion
+print "The value of pi is around " + str(3.14)
+
+# String Formatting with %
+string_1 = "Camelot"
+string_2 = "place"
+print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
+"""
+The % operator after a string is used to combine a string with variables. 
+The % operator will replace a %s in the string with the string variable that comes after it.
+"""
