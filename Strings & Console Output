@@ -1,0 +1,36 @@
+# string
+brian = "Hello life!"
+
+# This code breaks because Python thinks the apostrophe in 'isn't' ends the string. 
+# We can use the escape backslash to fix the problem
+'This isn't flying, this is falling with style!'-->Wrong
+'This isn\'t flying, this is falling with style!'-->Right
+
+"""
+The string "PYTHON" has six characters,
+numbered 0 to 5, as shown below:
+
++---+---+---+---+---+---+
+| P | Y | T | H | O | N |
++---+---+---+---+---+---+
+  0   1   2   3   4   5
+
+So if you wanted "Y", you could just type
+"PYTHON"[1] (always start counting from 0!)
+"""
+
+# String Method 1: len(__)
+parrot = "Norwegian Blue"
+print len(parrot)
+
+# String Method 2: __.lower()
+parrot = "Norwegian Blue"
+print parrot.lower()
+
+# String Method 3: __.upper()
+parrot = "norwegian blue"
+print parrot.upper()
+
+# String Method 4: Str(__)-->Turn non-strings into strings
+pi = 3.14
+print str(pi)
